@@ -1,44 +1,31 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "name": "Tung Tran Anh",
+        "label": "Web developer",
+        "picture": "https://res.cloudinary.com/tat-team/image/upload/v1662906483/personal/Kwr5qkIg_a_rhl25s.jpg",
+        "email": "tunganhtran94@gmail.com",
+        "phone": "(84) 905777294",
+        "website": "https://tungtran.is-a.dev",
+        "summary": "sudo rm -rf / * don't try this at home",
         "location": {
-            "address": "2712 Broadway St",
+            "address": "...",
             "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "city": "Da Nang, Vietnam",
+            "countryCode": "VN",
+            "region": "Da Nang",
+            "name": "San Francisco, US, US, US, US, US, US"
         },
         "profiles": [
-            {
-                "network": "twitter",
-                "username": "@john"
-            },
-            {
-                "network": "Portfolio",
-                "url": "https://myawesome.portfolio.rocket.fr"
-            },
-            {
-                "network": "codingame",
-                "username": "ed3ee82f9630e99db32dec093b2ca07a0368002"
-            }, {
-                "network": "github",
-                "username": "clementdevos"
-            },
-            {
-                "network": "linkedin",
-                "url": "https://www.linkedin.com/in/%F0%9F%A5%B3-cl%C3%A9ment-devos-4b832526/"
-            }
+            { "network": "twitter", "username": "@john" },
+            { "network": "Portfolio", "url": "https://myawesome.portfolio.rocket.fr" },
+            { "network": "codingame", "username": "ed3ee82f9630e99db32dec093b2ca07a0368002" },
+            { "network": "github", "username": "tunganhtran" },
+            { "network": "linkedin", "url": "https://www.linkedin.com/in/%F0%9F%A5%B3-cl%C3%A9ment-devos-4b832526/" }
         ]
     },
     "work": [
         {
-            "name": "Samsung Engineering",
+            "name": "Web developer",
             "position": "3D Cad Engineer",
             "website": "http://company.com",
             "startDate": "2014-01-01",
@@ -95,14 +82,7 @@
             "courses": ["DB1101 - Basic SQL"]
         }
     ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
+    "awards": [{ "title": "Award", "date": "2014-11-01", "awarder": "Company", "summary": "There is no spoon." }],
     "publications": [
         {
             "name": "Publication",
@@ -113,47 +93,21 @@
         }
     ],
     "skills": [
+        { "name": "Typescript", "index": 0, "value": 90, "id": "399b609c-d8fd-4447-b0e6-22156a6adadd" },
+        { "name": "Linux System", "index": 1, "value": 80, "id": "d2370796-e0d6-4ff7-8131-6fd5f3e06713" },
         {
             "name": "React",
             "level": "Master",
             "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "keywords": ["HTML", "CSS", "Javascript", "Typescript"],
+            "index": 2,
+            "id": "0ee3ecf1-3b57-4c71-bea7-b4ce43e13018"
         },
-        {
-            "name": "Angular",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "NodeJS",
-            "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Firebase",
-            "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Gmail",
-            "level": "Master",
-            "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        }
+        { "name": "Gatsby", "index": 3, "value": 90, "id": "e5e8a3cc-d917-4922-a011-4878ea8b5e86" },
+        { "name": "Next JS", "index": 4, "value": 90, "id": "e921b6fb-9c2f-4d90-b4a1-7a8f647fb6f6" },
+        { "name": "Material Ui", "index": 5, "value": 100, "id": "Material Ui" }
     ],
-    "languages": [
-        { "language": "English", "value": 100, "fluency": "Native speaker" },
-        { "language": "Italien", "value": 15, "fluency": "Native speaker" }
-    ],
+    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }],
     "interests": [
         {
             "name": "France europe gif by nike football",
@@ -166,64 +120,22 @@
                 "profileAvatarUrl": "https://media1.giphy.com/avatars/nikefootball/vPyZcrShcXY8.jpg"
             }
         },
-        {
-            "name": "Burritos",
-            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
-        },
-
-        {
-            "name": "Tendresse",
-            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
-        },
-        {
-            "name": "Something",
-            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
-        },
-        {
-            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
-        }
+        { "name": "Burritos", "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif" },
+        { "name": "Tendresse", "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif" },
+        { "name": "Something", "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif" },
+        { "name": "J'aime faire de la course à pied et des randonnées en famille le weekend." }
     ],
     "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
     "projects": [
         {
-            "index": 5,
-            "date": { "month": 11, "year": 2019 },
-            "description": "Moteur de recherche via le nom de films réalisée avec ReactJs:\nRequête à l'Api rest avec Fetch, utilisation des hooks.\n",
-            "id": "7f1f4257-e5db-477d-aa5f-ababe0ab0b12",
-            "images": [{ "url": "https://cdn.filestackcontent.com/aBOkTTkCQ66VOHUy0q8L" }],
-            "link": "https://lovely-movie.netlify.app/",
-            "name": "Lovely Movie",
-            "endDate": "2019-12-01"
-        },
-        {
-            "index": 2,
-            "date": { "month": 0, "year": 2020 },
-            "description": "Application de gestion de tâches réalisée avec ReactJs / Redux / Firebase :\nCréation de composants avec Styled Components, gestions de formulaires et validation des entrées, création d'une authentification, récupération / création / modification / suppression de tâches.",
-            "id": "af4181b1-8955-47fb-8dd9-17c6974335d3",
-            "images": [{ "url": "https://cdn.filestackcontent.com/G2CckiqvScC9tsrvHYg4" }],
-            "link": "https://diary-todo.netlify.app/",
-            "name": "Journal d'une Todo",
-            "endDate": "2020-01-01"
-        },
-        {
-            "index": 4,
-            "date": { "month": 5, "year": 2020 },
-            "description": "Blog réalisé en Java JEE et Spring, avec création d'une base de données MySQL et connectée avec JDBC.",
-            "id": "af8c78c3-f7c6-4f3b-9c32-9d37a9032e14",
-            "images": [{ "url": "https://cdn.filestackcontent.com/rPp0wj4S2GhTr0qTcqOI" }],
-            "link": "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
-            "name": "Charlie's Angels blog",
-            "endDate": "2020-06-01"
-        },
-        {
-            "index": 3,
-            "date": { "month": 5, "year": 2020 },
-            "description": "** Pensée uniquement pour téléphone **\nApplication permettant de connaître la météo actuelle d'une ville. Réalisée afin de découvrir VueJs.",
-            "id": "c64e6ca1-6300-4d7f-a305-8cfb7c99a9e6",
-            "images": [{ "url": "https://cdn.filestackcontent.com/w5oskUihSiYCxekOn9Ba" }],
-            "link": "https://appli-meteo.netlify.app/",
-            "name": "Application Météo",
-            "endDate": "2020-06-01"
+            "index": 0,
+            "date": { "month": 6, "year": 2020 },
+            "description": "Application réalisée en 24h (challenge de formation) avec Java JEE et Spring:\nGestion d’un CRUD, création d'une API Rest, ajout d'un environnement de production avec une base de données PostgreSQL hébergée sur Heroku.",
+            "id": "ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
+            "images": [{ "url": "https://cdn.filestackcontent.com/7XpHKtFTC2VynppurrK5" }],
+            "link": "https://your-todos-list.herokuapp.com/",
+            "name": "Your Todo List",
+            "endDate": "2020-07-01"
         },
         {
             "index": 1,
@@ -236,6 +148,46 @@
             "endDate": "2020-08-01"
         },
         {
+            "index": 2,
+            "date": { "month": 0, "year": 2020 },
+            "description": "Application de gestion de tâches réalisée avec ReactJs / Redux / Firebase :\nCréation de composants avec Styled Components, gestions de formulaires et validation des entrées, création d'une authentification, récupération / création / modification / suppression de tâches.",
+            "id": "af4181b1-8955-47fb-8dd9-17c6974335d3",
+            "images": [{ "url": "https://cdn.filestackcontent.com/G2CckiqvScC9tsrvHYg4" }],
+            "link": "https://diary-todo.netlify.app/",
+            "name": "Journal d'une Todo",
+            "endDate": "2020-01-01"
+        },
+        {
+            "index": 3,
+            "date": { "month": 5, "year": 2020 },
+            "description": "** Pensée uniquement pour téléphone **\nApplication permettant de connaître la météo actuelle d'une ville. Réalisée afin de découvrir VueJs.",
+            "id": "c64e6ca1-6300-4d7f-a305-8cfb7c99a9e6",
+            "images": [{ "url": "https://cdn.filestackcontent.com/w5oskUihSiYCxekOn9Ba" }],
+            "link": "https://appli-meteo.netlify.app/",
+            "name": "Application Météo",
+            "endDate": "2020-06-01"
+        },
+        {
+            "index": 4,
+            "date": { "month": 5, "year": 2020 },
+            "description": "Blog réalisé en Java JEE et Spring, avec création d'une base de données MySQL et connectée avec JDBC.",
+            "id": "af8c78c3-f7c6-4f3b-9c32-9d37a9032e14",
+            "images": [{ "url": "https://cdn.filestackcontent.com/rPp0wj4S2GhTr0qTcqOI" }],
+            "link": "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
+            "name": "Charlie's Angels blog",
+            "endDate": "2020-06-01"
+        },
+        {
+            "index": 5,
+            "date": { "month": 11, "year": 2019 },
+            "description": "Moteur de recherche via le nom de films réalisée avec ReactJs:\nRequête à l'Api rest avec Fetch, utilisation des hooks.\n",
+            "id": "7f1f4257-e5db-477d-aa5f-ababe0ab0b12",
+            "images": [{ "url": "https://cdn.filestackcontent.com/aBOkTTkCQ66VOHUy0q8L" }],
+            "link": "https://lovely-movie.netlify.app/",
+            "name": "Lovely Movie",
+            "endDate": "2019-12-01"
+        },
+        {
             "index": 6,
             "date": { "month": 4, "year": 2019 },
             "description": "Moteur de recherche basé sur le jeu World of Warcraft, premiers pas avec ReatJs.\nRequête à l'API Raider.io avec Axios.",
@@ -244,50 +196,33 @@
             "link": "https://wow-search-engine.netlify.app/",
             "name": "WoW Search",
             "endDate": "2019-05-01"
-        },
-        {
-            "index": 0,
-            "date": { "month": 6, "year": 2020 },
-            "description": "Application réalisée en 24h (challenge de formation) avec Java JEE et Spring:\nGestion d’un CRUD, création d'une API Rest, ajout d'un environnement de production avec une base de données PostgreSQL hébergée sur Heroku.",
-            "id": "ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
-            "images": [{ "url": "https://cdn.filestackcontent.com/7XpHKtFTC2VynppurrK5" }],
-            "link": "https://your-todos-list.herokuapp.com/",
-            "name": "Your Todo List",
-            "endDate": "2020-07-01"
         }
     ],
     "specific": {
         "basics": {
-            "visaSponsorship": true,
+            "visaSponsorship": false,
             "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
         },
         "dreamJob": {
             "locations": [{ "name": "Valenciennes, France" }, { "name": "Lille, France" }, { "name": "Paris,France" }],
             "remoteFrequency": "regularly"
         },
-        "currentJob": {
-            "issues": { "z": true, "boring_team": true }
-        },
-        "education": { "studiesLevel": null },
+        "currentJob": { "issues": { "z": true, "boring_team": true } },
+        "education": { "studiesLevel": 5 },
         "work": {
             "contractTypes": ["permanent", "freelance", "internship"],
-            "codingYears": 0,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
-            "searchState": "activelySearching",
+            "codingYears": 5,
+            "codingReason": "Interests, earn money for my family",
+            "searchState": "notSearching",
             "experienceYears": 0,
-            "codeExperienceYears": null,
-            "otherExperienceYears": null
+            "codeExperienceYears": 5,
+            "otherExperienceYears": 5
         },
-        "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
-        },
+        "sound": { "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge" },
         "interestedBy": "Angular, la blochain et les chatons."
     },
     "resumeCustomization": {
-        "imageHeader": {
-            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
-            "alt": "Default Banner"
-        },
+        "imageHeader": { "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp", "alt": "Default Banner" },
         "cardsOrder": [
             { "type": "basics", "variant": 4 },
             { "type": "projects", "variant": 4 },
@@ -301,9 +236,48 @@
             { "type": "soundtrack", "variant": 4 },
             { "type": "social", "variant": 4 }
         ],
-        "fields": {
-            "work": {
-                "customDateFormat": "YYYY"
+        "fields": { "work": { "customDateFormat": "YYYY" } },
+        "theme": {
+            "palette": {
+                "primary": {
+                    "50": "#ede7ec",
+                    "100": "#dbced8",
+                    "200": "#b69db1",
+                    "300": "#926c8b",
+                    "400": "#6d3b64",
+                    "500": "#490a3d",
+                    "600": "#3a0831",
+                    "700": "#2c0625",
+                    "800": "#1d0418",
+                    "900": "#0f020c",
+                    "contrastDefaultColor": "light"
+                },
+                "secondary": {
+                    "50": "#f8e8ee",
+                    "100": "#f2d0dc",
+                    "200": "#e5a1b9",
+                    "300": "#d77396",
+                    "400": "#ca4473",
+                    "500": "#bd1550",
+                    "600": "#971140",
+                    "700": "#710d30",
+                    "800": "#4c0820",
+                    "900": "#260410",
+                    "contrastDefaultColor": "light"
+                },
+                "tertiary": {
+                    "50": "#fdf2e6",
+                    "100": "#fbe5cc",
+                    "200": "#f6cc9a",
+                    "300": "#f2b267",
+                    "400": "#ed9935",
+                    "500": "#e97f02",
+                    "600": "#ba6602",
+                    "700": "#8c4c01",
+                    "800": "#5d3301",
+                    "900": "#2f1900",
+                    "contrastDefaultColor": "light"
+                }
             }
         }
     }
