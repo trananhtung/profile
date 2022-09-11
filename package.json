@@ -1,7 +1,8 @@
 {
     "name": "@welovedevs/react-ultimate-resume",
     "version": "1.2.11",
-    "description": "Developer profile for W3D",
+    "homepage": "https://tunganhtran.github.io/introduction-myself",
+    "description": "My profile",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
     "types": "dist/cjs/package/index.d.ts",
@@ -16,7 +17,9 @@
         "gh-deploy": "yarn build && gh-pages -d build",
         "build:library": "rimraf dist && npx tailwindcss build -o ./src/package/styles/tailwind.css --minify && node ./node_modules/.bin/rollup -c",
         "version:beta": "npm version prerelease --preid=beta",
-        "version:release": "npm version ${VERSION:-patch}"
+        "version:release": "npm version ${VERSION:-patch}",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "repository": {
         "type": "git",
@@ -101,7 +104,7 @@
         "babel-plugin-react-intl": "^8.2.25",
         "cross-env": "^7.0.3",
         "css-loader": "^6.6.0",
-        "gh-pages": "^2.2.0",
+        "gh-pages": "^4.0.0",
         "husky": "^3.1.0",
         "lint-staged": "^10.0.8",
         "node-sass": "^7.0.1",
