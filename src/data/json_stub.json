@@ -6,14 +6,14 @@
         "email": "tunganhtran94@gmail.com",
         "phone": "(84) 905777294",
         "website": "https://tungtran.is-a.dev",
-        "summary": "sudo rm -rf / * don't try this at home",
+        "summary": "Exist to build and build to last",
         "location": {
             "address": "...",
             "postalCode": "CA 94115",
-            "city": "Da Nang, Vietnam",
+            "city": "Da Nang, Vietnam, VN, VN",
             "countryCode": "VN",
             "region": "Da Nang",
-            "name": "San Francisco, US, US, US, US, US, US"
+            "name": "Da Nang, Vietnam, VN, VN"
         },
         "profiles": [
             { "network": "twitter", "username": "@TrnAnhTng" },
@@ -92,23 +92,35 @@
         { "name": "Next JS", "index": 4, "value": 90, "id": "e921b6fb-9c2f-4d90-b4a1-7a8f647fb6f6" },
         { "name": "Material Ui", "index": 5, "value": 100, "id": "Material Ui" }
     ],
-    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }],
+    "languages": [
+        {
+            "language": "English",
+            "value": 70,
+            "fluency": "Native speaker",
+            "id": "7f6cecd5-cd0d-41bc-9886-4a73148e5b62",
+            "index": 0
+        },
+        { "index": 1, "id": "7dfc9c88-4d1b-44ed-adef-65dfdf82f7e3", "language": "Vietnam", "value": 100 }
+    ],
     "interests": [
         {
-            "name": "France europe gif by nike football",
-            "gifUrl": "https://media1.giphy.com/media/3oD3YooLLYg0AfOPdK/giphy-downsized.gif?cid=f7fb5bbaegu1ofs48lty41dyowqsfo0wq9qq8h4czot7rwm1&rid=giphy-downsized.gif",
-            "id": "afa5739f-f868-464e-a1aa-18f5a3ff4e2b",
-            "gifUser": {
-                "name": "Nike Football",
-                "profileUrl": "https://giphy.com/nikefootball/",
-                "isVerified": true,
-                "profileAvatarUrl": "https://media1.giphy.com/avatars/nikefootball/vPyZcrShcXY8.jpg"
-            }
+            "name": "Football",
+            "gifUrl": "https://media.giphy.com/media/ngdC0WQNpI8Ew/giphy.gif",
+            "id": "ab6175d2-d8e5-4cc0-8798-f05a8ad272a6",
+            "index": 0
         },
-        { "name": "Burritos", "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif" },
-        { "name": "Tendresse", "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif" },
-        { "name": "Something", "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif" },
-        { "name": "J'aime faire de la course à pied et des randonnées en famille le weekend." }
+        {
+            "name": "Coding",
+            "gifUrl": "https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif",
+            "id": "6fcbff5f-01ea-47d3-8508-e3a41e64e516",
+            "index": 1
+        },
+        {
+            "name": "Hacking",
+            "id": "2a6cfdae-f5f7-4502-b4eb-1f89c681d100",
+            "index": 2,
+            "gifUrl": "https://media.giphy.com/media/9WC8WTZsFxkRi/giphy.gif"
+        }
     ],
     "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
     "projects": [
@@ -122,10 +134,7 @@
         }
     ],
     "specific": {
-        "basics": {
-            "visaSponsorship": false,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
-        },
+        "basics": { "visaSponsorship": false, "personalDescription": "Hi there!" },
         "dreamJob": { "locations": [{ "name": "Da Nang, Vietnam" }], "remoteFrequency": "regularly" },
         "currentJob": { "issues": { "z": true } },
         "education": { "studiesLevel": 5 },
